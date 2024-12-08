@@ -52,7 +52,7 @@ class FilamentNordThemeInstall extends Command
         $postcssConfigPath = base_path('postcss.config.js');
 
         if (! File::exists($postcssConfigPath)) {
-            File::copy(__DIR__ .'/../../stubs/postcssConfig.stub', base_path('postcss.config.js'));
+            File::copy(__DIR__ . '/../../stubs/postcssConfig.stub', base_path('postcss.config.js'));
 
             $this->info('postcss.config.js file created.');
         }

@@ -10,17 +10,17 @@ class FilamentNordThemeServiceProvider extends ServiceProvider
     public function register(): void
     {
         $this->commands([
-           FilamentNordThemeInstall::class,
+            FilamentNordThemeInstall::class,
         ]);
 
-        $this->mergeConfigFrom(__DIR__.'/../config/filament-nord-theme.php', 'filament-nord-theme');
+        $this->mergeConfigFrom(__DIR__ . '/../config/filament-nord-theme.php', 'filament-nord-theme');
 
         $this->publishes([
-           __DIR__.'/../config/filament-nord-theme.php' => config_path('filament-nord-theme.php'),
+            __DIR__ . '/../config/filament-nord-theme.php' => config_path('filament-nord-theme.php'),
         ], 'filament-nord-theme-config');
 
         $this->publishes([
-           __DIR__.'/../resources/views' => resource_path('views/vendor/filament-nord-theme'),
+            __DIR__ . '/../resources/views' => resource_path('views/vendor/filament-nord-theme'),
         ], 'filament-nord-theme-views');
     }
 
