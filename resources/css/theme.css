@@ -1,0 +1,168 @@
+@import '/vendor/filament/filament/resources/css/theme.css';
+
+@config 'tailwind.config.js';
+
+.fi-layout {
+    @apply bg-[#f5f8fa] dark:bg-[#252a35]; /*#2e3440*/
+}
+
+.fi-topbar nav, .fi-sidebar-header {
+    @apply bg-[#f5f8fa] dark:bg-[#252a35];
+}
+
+.fi-btn-color-primary {
+    @apply bg-[#88c0d0]; /* #88c0d0 */
+}
+
+.fi-ta-ctn {
+    @apply dark:bg-[#3b4252];
+}
+
+.fi-ta-table {
+    @apply divide-gray-100;
+}
+
+.fi-ta-table tbody {
+    @apply divide-gray-100;
+}
+
+.fi-ta-table thead tr {
+    @apply bg-[#fbfcfd];
+}
+
+.fi-sidebar-item-label {
+    @apply dark:text-gray-400;
+}
+
+.fi-sidebar-item-active a svg {
+    @apply text-primary-800;
+}
+
+.fi-sidebar-item-active a span {
+    @apply text-primary-800 dark:text-primary-400;
+}
+
+.fi-sidebar-item .fi-sidebar-item-button {
+    @apply rounded-lg hover:bg-[#d8dee9] dark:hover:bg-white/5;
+}
+
+.fi-sidebar-item-active .fi-sidebar-item-button {
+    @apply rounded-lg bg-[#eceff4] dark:focus-visible:bg-white/5 dark:bg-white/5; /* bg-[#e5e9f0] */
+}
+
+.fi-fo-field-wrp-label span {
+    @apply text-[#4c566a];
+}
+
+.fi-breadcrumbs-item-label {
+    @apply text-[#4c566a];
+}
+
+.fi-header-heading, .fi-ta-header-cell-label, .fi-btn-color-gray span {
+    @apply text-[#434c5e] dark:text-[#e5e9f0];
+}
+
+.fi-body {
+    @apply bg-[#f5f8fa] dark:bg-polarnight-900;
+}
+
+.fi-input-wrp {
+    @apply ring-1 ring-[#d8dee9];
+}
+
+.fi-tabs-item-active {
+    @apply bg-primary-100;
+}
+
+.fi-tabs-item-active span {
+    @apply !text-secondary-900;
+}
+
+.fi-ta-ctn {
+    @apply shadow-md rounded-2xl border-none ring-0 dark:ring-1 divide-gray-100; /*rounded-none*/
+}
+
+.fi-section, .fi-wi-stats-overview-stat, .fi-ta-ctn, .fi-tenant-menu, .fi-dropdown-panel {
+    @apply border border-transparent dark:bg-secondary-900
+        dark:[background:linear-gradient(#2e3440,#3b4252)_padding-box,linear-gradient(to_right,rgb(var(--primary-800)),rgb(var(--gray-800)))_border-box;];
+}
+
+.fi-section, .fi-wi-stats-overview-stat {
+    @apply shadow-md rounded-2xl border-none ring-0 dark:ring-1;
+}
+
+.fi-topbar-item-active a, .fi-topbar-item-active button {
+    @apply bg-secondary-500 hover:bg-secondary-400 dark:bg-primary-500 dark:text-secondary-500 dark:hover:bg-primary-400;
+}
+
+.fi-topbar-item-active svg {
+    @apply dark:text-secondary-500;
+}
+
+.fi-topbar .fi-tenant-menu {
+    @apply lg:!hidden;
+}
+
+.fi-tenant-menu {
+    @apply rounded-lg mt-4;
+}
+
+.fi-fo-field-wrp-error-message {
+    @apply text-[#bf616a] dark:text-[#d08770];
+}
+
+.fi-invalid {
+    @apply ring-[#bf616a] dark:ring-[#d08770];
+}
+
+.fi-global-search-field .fi-input-wrp, .fi-ta-search-field .fi-input-wrp {
+    @apply rounded-full bg-[#f5f8fa] dark:bg-gray-900;
+}
+
+.fi-global-search-field .fi-input-wrp {
+    @apply ring-4 ring-white dark:ring-gray-800;
+}
+
+.fi-global-search-field .fi-input-wrp .fi-input-wrp-prefix {
+    @apply bg-white dark:bg-gray-800 rounded-full ps-2 mr-2;
+}
+
+.fi-btn {
+    @apply rounded-full;
+}
+
+.fi-wi-widget .fi-section, .fi-wi-stats-overview-stat {
+    @apply dark:ring-gray-700 dark:hover:text-white/70 dark:hover:ring-gray-500;
+}
+
+.fi-fo-toggle {
+    @apply bg-primary-500;
+}
+
+.fi-badge {
+    @apply rounded-xl;
+}
+
+.fi-fo-field-wrp-helper-text {
+    @apply text-gray-500 dark:text-gray-300;
+}
+
+.fi-tabs-item-active span {
+    @apply dark:text-gray-100 !important;
+}
+
+.fi-sidebar-item-button .fi-badge {
+    @apply bg-primary-300 dark:bg-primary-200;
+}
+
+.fi-sidebar-item-button .fi-badge span span {
+    @apply text-gray-700;
+}
+
+.fi-input {
+    @apply disabled:bg-gray-50 dark:disabled:bg-gray-800 !important;
+}
+
+.fi-btn.fi-color-primary .fi-btn-label {
+    @apply text-primary-950;
+}
