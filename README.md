@@ -1,9 +1,10 @@
-# Filament Nord Theme
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/andreia/filament-nord-theme.svg?style=flat-square)](https://packagist.org/packages/andreia/filament-nord-theme)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/andreia/filament-nord-theme/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/andreia/filament-nord-theme/actions?query=workflow%3Arun-tests+branch%3Amain)
 ![GitHub Code Style Action Status](https://github.com/andreia/filament-nord-theme/actions/workflows/fix-php-code-style-issues.yml/badge.svg)
 [![Total Downloads](https://img.shields.io/packagist/dt/andreia/filament-nord-theme.svg?style=flat-square)](https://packagist.org/packages/andreia/filament-nord-theme)
+
+# Filament Nord Theme
 
 A light and dark arctic Nord theme for Filament PHP.
 
@@ -46,23 +47,92 @@ $panel
 
 ### Dashboard
 
-![Dashboard Light](https://raw.githubusercontent.com/andreia/filament-nord-theme/main/docs/dashboard_light.png)
-![Dashboard Dark](https://raw.githubusercontent.com/andreia/filament-nord-theme/main/docs/dashboard_dark.png)
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col" width="1000px">Dashboard Light</th>
+      <th scope="col" width="1000px">Dashboard Dark</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img src="https://raw.githubusercontent.com/andreia/filament-nord-theme/main/docs/dashboard_light.png" width="100%" alt="Dashboard Light">
+      </td>
+      <td>
+        <img src="https://raw.githubusercontent.com/andreia/filament-nord-theme/main/docs/dashboard_dark.png" width="100%" alt="Dashboard Dark">
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### User Menu
 
-![User Menu Light](https://raw.githubusercontent.com/andreia/filament-nord-theme/main/docs/user_menu_light.png)
-![User Menu Dark](https://raw.githubusercontent.com/andreia/filament-nord-theme/main/docs/user_menu_dark.png)
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col" width="1000px">User Menu Light</th>
+      <th scope="col" width="1000px">User Menu Dark</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img src="https://raw.githubusercontent.com/andreia/filament-nord-theme/main/docs/user_menu_light.png" width="100%" alt="User Menu Light">
+      </td>
+      <td>
+        <img src="https://raw.githubusercontent.com/andreia/filament-nord-theme/main/docs/user_menu_dark.png" width="100%" alt="User Menu Dark">
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Product
 
-![Create Product Light](https://raw.githubusercontent.com/andreia/filament-nord-theme/main/docs/product_create_light.png)
-![Create Product Dark](https://raw.githubusercontent.com/andreia/filament-nord-theme/main/docs/product_create_dark.png)
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col" width="1000px">Create Product Light</th>
+      <th scope="col" width="1000px">Create Product Dark</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img src="https://raw.githubusercontent.com/andreia/filament-nord-theme/main/docs/product_create_light.png" width="100%" alt="Create Product Light">
+      </td>
+      <td>
+        <img src="https://raw.githubusercontent.com/andreia/filament-nord-theme/main/docs/product_create_dark.png" width="100%" alt="Create Product Dark">
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Order
 
-![Order List Light](https://raw.githubusercontent.com/andreia/filament-nord-theme/main/docs/orders_light.png)
-![Order List Dark](https://raw.githubusercontent.com/andreia/filament-nord-theme/main/docs/orders_dark.png)
-
-![Create Order Light](https://raw.githubusercontent.com/andreia/filament-nord-theme/main/docs/order_create_light.png)
-![Create Order Dark](https://raw.githubusercontent.com/andreia/filament-nord-theme/main/docs/order_create_dark.png)
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col" width="1000px">Order List Light</th>
+      <th scope="col" width="1000px">Order List Dark</th>
+      <th scope="col" width="1000px">Create Order Light</th>
+      <th scope="col" width="1000px">Create Order Dark</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img src="https://raw.githubusercontent.com/andreia/filament-nord-theme/main/docs/orders_light.png" width="100%" alt="Order List Light">
+      </td>
+      <td>
+        <img src="https://raw.githubusercontent.com/andreia/filament-nord-theme/main/docs/orders_dark.png" width="100%" alt="Order List Dark">
+      </td>
+      <td>
+        <img src="https://raw.githubusercontent.com/andreia/filament-nord-theme/main/docs/order_create_light.png" width="100%" alt="Create Order Light">
+      </td>
+      <td>
+        <img src="https://raw.githubusercontent.com/andreia/filament-nord-theme/main/docs/order_create_dark.png" width="100%" alt="Create Order Dark">
+      </td>
+    </tr>
+  </tbody>
+</table>
