@@ -127,7 +127,19 @@
     @apply bg-white dark:bg-gray-800 rounded-full ps-2 mr-2;
 }
 
-.fi-btn {
+.fi-btn:not(.fi-btn-group .fi-btn) {
+    @apply rounded-full;
+}
+
+.fi-btn-group > .fi-btn:first-of-type {
+    @apply rounded-s-full;
+}
+
+.fi-btn-group > .fi-btn:last-of-type {
+    @apply rounded-e-full;
+}
+
+.fi-btn-group {
     @apply rounded-full;
 }
 
