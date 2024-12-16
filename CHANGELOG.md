@@ -2,6 +2,18 @@
 
 All notable changes to `Filament Nord Theme` will be documented in this file.
 
+## v1.0.3 - 2024-12-16
+
+### What's Changed
+
+* Add fix for button group by @andreia in https://github.com/andreia/filament-nord-theme/pull/6
+
+### New Contributors
+
+* @andreia made their first contribution in https://github.com/andreia/filament-nord-theme/pull/6
+
+**Full Changelog**: https://github.com/andreia/filament-nord-theme/compare/v1.0.2...v1.0.3
+
 ## v1.0.2 - 2024-12-12
 
 ### What's Changed
