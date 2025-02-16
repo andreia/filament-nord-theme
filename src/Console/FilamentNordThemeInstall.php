@@ -43,9 +43,9 @@ class FilamentNordThemeInstall extends Command
             return static::FAILURE;
         }
 
-        $this->info("Using NPM v{$npmVersion[0]} to install the required TailwindCSS plugins: forms, typography, and also postcss, and autoprefixer...");
+        $this->info("Using NPM v{$npmVersion[0]} to install the required TailwindCSS plugins: forms, typography, and also postcss, postcss-nesting, and autoprefixer...");
 
-        exec('npm install tailwindcss @tailwindcss/forms @tailwindcss/typography postcss autoprefixer --save-dev');
+        exec('npm install tailwindcss @tailwindcss/forms @tailwindcss/typography postcss postcss-nesting autoprefixer --save-dev');
 
         $this->info('Checking if postcss.config.js file exists and creating it if not...');
 
