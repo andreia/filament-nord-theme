@@ -45,7 +45,7 @@ class FilamentNordThemePlugin implements Plugin
                 'secondary' => Color::hex('#5e81ac'), // nord10
                 'success' => Color::hex('#a3be8c'), // nord14
                 'warning' => Color::hex('#ebcb8b'), // nord13
-                //'polarnight' => Color::hex('#3b4353'), // nord1
+                // 'polarnight' => Color::hex('#3b4353'), // nord1
             ])
             ->viteTheme('vendor/andreia/filament-nord-theme/resources/css/theme.css');
     }
