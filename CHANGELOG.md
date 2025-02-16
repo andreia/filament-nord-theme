@@ -2,6 +2,16 @@
 
 All notable changes to `Filament Nord Theme` will be documented in this file.
 
+## v1.0.4 - 2025-02-16
+
+### What's Changed
+
+* Bump dependabot/fetch-metadata from 2.2.0 to 2.3.0 by @dependabot in https://github.com/andreia/filament-nord-theme/pull/8
+* Bump aglipanci/laravel-pint-action from 2.4 to 2.5 by @dependabot in https://github.com/andreia/filament-nord-theme/pull/9
+* Add PostCss Nesting plugin by @andreia in https://github.com/andreia/filament-nord-theme/pull/10
+
+**Full Changelog**: https://github.com/andreia/filament-nord-theme/compare/v1.0.3...v1.0.4
+
 ## v1.0.3 - 2024-12-16
 
 ### What's Changed
