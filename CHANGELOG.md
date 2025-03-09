@@ -2,6 +2,19 @@
 
 All notable changes to `Filament Nord Theme` will be documented in this file.
 
+## v1.0.5 - 2025-03-09
+
+### What's Changed
+
+* Add Support for Laravel 12 by @alkoumi in https://github.com/andreia/filament-nord-theme/pull/11
+* Update libraries by @andreia in https://github.com/andreia/filament-nord-theme/pull/12
+
+### New Contributors
+
+* @alkoumi made their first contribution in https://github.com/andreia/filament-nord-theme/pull/11
+
+**Full Changelog**: https://github.com/andreia/filament-nord-theme/compare/v1.0.4...v1.0.5
+
 ## v1.0.4 - 2025-02-16
 
 ### What's Changed
