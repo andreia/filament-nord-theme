@@ -2,6 +2,14 @@
 
 All notable changes to `Filament Nord Theme` will be documented in this file.
 
+## v1.0.6 - 2025-03-09
+
+### What's Changed
+
+* Remove deprecated config from phpstan by @andreia in https://github.com/andreia/filament-nord-theme/pull/13
+
+**Full Changelog**: https://github.com/andreia/filament-nord-theme/compare/v1.0.5...v1.0.6
+
 ## v1.0.5 - 2025-03-09
 
 ### What's Changed
