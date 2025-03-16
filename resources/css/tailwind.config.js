@@ -1,4 +1,9 @@
-import preset from '../../../../../vendor/filament/filament/tailwind.config.preset'
+import { resolve } from 'path'
+import { fileURLToPath } from 'url'
+
+const __dirname = fileURLToPath(new URL('.', import.meta.url))
+
+const preset = require(resolve(__dirname, '../../../../vendor/filament/filament/tailwind.config.preset.js'))
 
 export default {
     presets: [preset],
