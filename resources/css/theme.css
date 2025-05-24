@@ -30,23 +30,23 @@
     @apply bg-[#fbfcfd];
 }
 
-.fi-sidebar-item-label {
+.fi-sidebar-item-label, .fi-topbar-item-label {
     @apply dark:text-gray-400;
 }
 
-.fi-sidebar-item-active a svg {
+.fi-sidebar-item-active a svg, .fi-topbar-item-active a svg {
     @apply text-primary-800;
 }
 
-.fi-sidebar-item-active a span {
+.fi-sidebar-item-active a span, .fi-topbar-item-active a span {
     @apply text-primary-800 dark:text-primary-400;
 }
 
-.fi-sidebar-item .fi-sidebar-item-button {
+.fi-sidebar-item .fi-sidebar-item-button, .fi-topbar-item .fi-topbar-item-button {
     @apply rounded-lg hover:bg-[#d8dee9] dark:hover:bg-white/5;
 }
 
-.fi-sidebar-item-active .fi-sidebar-item-button {
+.fi-sidebar-item-active .fi-sidebar-item-button, .fi-topbar-item-active .fi-topbar-item-button {
     @apply rounded-lg bg-[#eceff4] dark:focus-visible:bg-white/5 dark:bg-white/5; /* bg-[#e5e9f0] */
 }
 
@@ -163,11 +163,11 @@
     @apply dark:text-gray-100 !important;
 }
 
-.fi-sidebar-item-button .fi-badge {
+.fi-sidebar-item-button .fi-badge, .fi-topbar-item-button .fi-badge {
     @apply bg-primary-300 dark:bg-primary-200;
 }
 
-.fi-sidebar-item-button .fi-badge span span {
+.fi-sidebar-item-button .fi-badge span span, .fi-topbar-item-button .fi-badge span span {
     @apply text-gray-700;
 }
 
