@@ -2,6 +2,15 @@
 
 All notable changes to `Filament Nord Theme` will be documented in this file.
 
+## v1.0.7 - 2025-05-24
+
+### What's Changed
+
+* Bump dependabot/fetch-metadata from 2.3.0 to 2.4.0 by @dependabot in https://github.com/andreia/filament-nord-theme/pull/16
+* Update top navigation styles by @andreia in https://github.com/andreia/filament-nord-theme/pull/18
+
+**Full Changelog**: https://github.com/andreia/filament-nord-theme/compare/v1.0.6...v1.0.7
+
 ## v1.0.6 - 2025-03-09
 
 ### What's Changed
