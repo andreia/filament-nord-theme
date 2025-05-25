@@ -2,6 +2,14 @@
 
 All notable changes to `Filament Nord Theme` will be documented in this file.
 
+## v1.0.8 - 2025-05-25
+
+### What's Changed
+
+* Update toggle style by @andreia in https://github.com/andreia/filament-nord-theme/pull/19
+
+**Full Changelog**: https://github.com/andreia/filament-nord-theme/compare/v1.0.7...v1.0.8
+
 ## v1.0.7 - 2025-05-24
 
 ### What's Changed
