@@ -2,6 +2,14 @@
 
 All notable changes to `Filament Nord Theme` will be documented in this file.
 
+## v1.0.9 - 2025-07-13
+
+### What's Changed
+
+* Filament 4 support by @andreia in https://github.com/andreia/filament-nord-theme/pull/23
+
+**Full Changelog**: https://github.com/andreia/filament-nord-theme/compare/v1.0.8...v1.0.9
+
 ## v2.0.1 - 2025-07-13
 
 ### What's Changed
