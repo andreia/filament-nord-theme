@@ -1,4 +1,4 @@
-@import '../../vendor/filament/filament/resources/css/theme.css';
+@import '../../../../../vendor/filament/filament/resources/css/theme.css';
 
 @theme {
   --color-secondary-50: rgba(var(--secondary-50), <alpha-value>);
