@@ -1,6 +1,30 @@
-@import '/vendor/filament/filament/resources/css/theme.css';
+@import '../../vendor/filament/filament/resources/css/theme.css';
 
-@config 'tailwind.config.js';
+@theme {
+  --color-secondary-50: rgba(var(--secondary-50), <alpha-value>);
+  --color-secondary-100: rgba(var(--secondary-100), <alpha-value>);
+  --color-secondary-200: rgba(var(--secondary-200), <alpha-value>);
+  --color-secondary-300: rgba(var(--secondary-300), <alpha-value>);
+  --color-secondary-400: rgba(var(--secondary-400), <alpha-value>);
+  --color-secondary-500: rgba(var(--secondary-500), <alpha-value>);
+  --color-secondary-600: rgba(var(--secondary-600), <alpha-value>);
+  --color-secondary-700: rgba(var(--secondary-700), <alpha-value>);
+  --color-secondary-800: rgba(var(--secondary-800), <alpha-value>);
+  --color-secondary-900: rgba(var(--secondary-900), <alpha-value>);
+  --color-secondary-950: rgba(var(--secondary-950), <alpha-value>);
+
+  --color-polarnight-50: #e5e9f0;  /* Lightest (pale version of #2E3440) */
+  --color-polarnight-100: #d1d7e0; /* Light shade of #2E3440 */
+  --color-polarnight-200: #a7b1c5; /* Lighter shade of #3B4252 */
+  --color-polarnight-300: #8c9ab3; /* Lighter shade of #3B4252 */
+  --color-polarnight-400: #71829b; /* Lighter shade of #434C5E */
+  --color-polarnight-500: #4c566a; /* Base color (#4C566A) */
+  --color-polarnight-600: #434c5e; /* Darker shade of #434C5E */
+  --color-polarnight-700: #3b4252; /* Darker shade of #3B4252 */
+  --color-polarnight-800: #2e3440; /* Base color (#2E3440) */
+  --color-polarnight-900: #232831; /* Darker shade of #2E3440 */
+  --color-polarnight-950: #1b2027; /* Darkest shade, almost black */
+}
 
 .fi-layout {
     @apply bg-[#f5f8fa] dark:bg-[#252a35]; /*#2e3440*/
@@ -14,20 +38,12 @@
     @apply bg-[#88c0d0]; /* #88c0d0 */
 }
 
-.fi-ta-ctn {
+.fi-ta-ctn, .fi-ta-ctn .fi-ta-ctn-with-header {
     @apply dark:bg-[#3b4252];
 }
 
-.fi-ta-table {
-    @apply divide-gray-100;
-}
-
-.fi-ta-table tbody {
-    @apply divide-gray-100;
-}
-
 .fi-ta-table thead tr {
-    @apply bg-[#fbfcfd];
+    @apply bg-[#fbfcfd] dark:bg-[#3b414e];
 }
 
 .fi-sidebar-item-label, .fi-topbar-item-label {
@@ -67,7 +83,7 @@
 }
 
 .fi-input-wrp {
-    @apply ring-1 ring-[#d8dee9];
+    @apply ring-1 ring-[#d8dee9] dark:ring-white/20;
 }
 
 .fi-tabs-item-active {
@@ -79,12 +95,19 @@
 }
 
 .fi-ta-ctn {
-    @apply shadow-md rounded-2xl border-none ring-0 dark:ring-1 divide-gray-100; /*rounded-none*/
+    @apply shadow-md rounded-2xl border-none ring-0 dark:ring-1 divide-gray-100 dark:divide-white/20; /*rounded-none*/
 }
 
 .fi-section, .fi-wi-stats-overview-stat, .fi-ta-ctn, .fi-tenant-menu, .fi-dropdown-panel {
-    @apply border border-transparent dark:bg-secondary-900
-        dark:[background:linear-gradient(#2e3440,#3b4252)_padding-box,linear-gradient(to_right,rgb(var(--primary-800)),rgb(var(--gray-800)))_border-box;];
+    @apply border border-transparent dark:bg-secondary-900;
+}
+
+.dark .fi-section, .dark .fi-wi-stats-overview-stat, .dark .fi-ta-ctn, .dark .fi-tenant-menu, .dark .fi-dropdown-panel {
+    background:
+        linear-gradient(#2e3440, #3b4252),
+        linear-gradient(to right, rgb(82, 115, 125), rgb(59, 66, 82));
+    background-clip: padding-box, border-box;
+    background-origin: border-box;
 }
 
 .fi-section, .fi-wi-stats-overview-stat {
@@ -164,7 +187,7 @@
 }
 
 .fi-tabs-item-active span {
-    @apply dark:text-gray-100 !important;
+    @apply dark:!text-gray-100;
 }
 
 .fi-sidebar-item-button .fi-badge, .fi-topbar-item-button .fi-badge {
@@ -176,7 +199,7 @@
 }
 
 .fi-input {
-    @apply disabled:bg-gray-50 dark:disabled:bg-gray-800 !important;
+    @apply disabled:!bg-gray-50 dark:disabled:!bg-gray-800;
 }
 
 .fi-btn.fi-color-primary .fi-btn-label {

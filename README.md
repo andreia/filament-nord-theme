@@ -10,16 +10,17 @@ A light and dark arctic Nord theme for Filament PHP.
 
 ![Dashboard Light and Dark](https://raw.githubusercontent.com/andreia/filament-nord-theme/main/docs/dashboard.jpg)
 
+## Version Compatibility
+
+ Filament | Filament Nord Theme
+:---------|:-------------------
+ 3.x      | 1.x
+ 4.x      | 2.x
+
 ## Installation
 
 ```bash
-composer require andreia/filament-nord-theme
-```
-
-To install the theme's required JS libraries (install TailwindCSS plugins: forms, typography, and also postcss, and autoprefixer. Create postcss.config.js if it not exists yet), run:
-
-```bash
-php artisan filament-nord-theme:install
+composer require andreia/filament-nord-theme:"^2.0"
 ```
 
 Add a new item to the `input` array of your `vite.config.js` file:
@@ -42,6 +43,8 @@ use Andreia\FilamentNordTheme\FilamentNordThemePlugin;
 $panel
   ->plugin(FilamentNordThemePlugin::make())
 ```
+
+You're all set!
 
 ## Appearance
 
