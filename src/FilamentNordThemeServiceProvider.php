@@ -2,7 +2,6 @@
 
 namespace Andreia\FilamentNordTheme;
 
-use Andreia\FilamentNordTheme\Console\FilamentNordThemeInstall;
 use Illuminate\Support\ServiceProvider;
 
 class FilamentNordThemeServiceProvider extends ServiceProvider
