@@ -10,10 +10,21 @@ A light and dark arctic Nord theme for Filament PHP.
 
 ![Dashboard Light and Dark](https://raw.githubusercontent.com/andreia/filament-nord-theme/main/docs/dashboard.jpg)
 
+## Version Compatibility
+
+ Filament | Filament Nord Theme
+:---------|:-------------------
+ 3.x      | 1.x
+ 4.x      | 2.x
+
+## Filament 4
+
+For Filament 4 installation and documention [click here](https://github.com/andreia/filament-nord-theme/tree/2.x).
+
 ## Installation
 
 ```bash
-composer require andreia/filament-nord-theme
+composer require andreia/filament-nord-theme"^1.0"
 ```
 
 To install the theme's required JS libraries (install TailwindCSS plugins: forms, typography, and also postcss, and autoprefixer. Create postcss.config.js if it not exists yet), run:
