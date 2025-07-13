@@ -41,7 +41,20 @@ class FilamentNordThemePlugin implements Plugin
             ->colors([
                 'danger' => Color::hex('#bf616a'), // nord11
                 'info' => Color::hex('#81a1c1'), // nord9
-                'primary' => Color::hex('#88c0d0'), // nord8
+                //'primary' => Color::hex('#88c0d0'), // nord8
+                'primary' => [
+                    50 => '#FAFCFD',
+                    100 => '#F3F9FA',
+                    200 => '#E3EFF2',
+                    300 => '#CFE6EC',
+                    400 => '#ACD4DD',
+                    500 => '#88C0D0',
+                    600 => '#7AADBB',
+                    700 => '#66909B',
+                    800 => '#52737D',
+                    900 => '#445E66',
+                    950 => '#293A3D',
+                ],
                 'secondary' => Color::hex('#5e81ac'), // nord10
                 'success' => Color::hex('#a3be8c'), // nord14
                 'warning' => Color::hex('#ebcb8b'), // nord13

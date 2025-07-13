@@ -9,10 +9,6 @@ class FilamentNordThemeServiceProvider extends ServiceProvider
 {
     public function register(): void
     {
-        $this->commands([
-            FilamentNordThemeInstall::class,
-        ]);
-
         $this->mergeConfigFrom(__DIR__ . '/../config/filament-nord-theme.php', 'filament-nord-theme');
 
         $this->publishes([
