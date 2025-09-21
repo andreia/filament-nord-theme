@@ -2,6 +2,14 @@
 
 All notable changes to `Filament Nord Theme` will be documented in this file.
 
+## v2.0.2 - 2025-09-21
+
+### What's Changed
+
+* Fix gray colors applied to another panels by @andreia in https://github.com/andreia/filament-nord-theme/pull/27
+
+**Full Changelog**: https://github.com/andreia/filament-nord-theme/compare/v2.0.1...v2.0.2
+
 ## v1.0.9 - 2025-07-13
 
 ### What's Changed
