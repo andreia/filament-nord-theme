@@ -2,6 +2,14 @@
 
 All notable changes to `Filament Nord Theme` will be documented in this file.
 
+## v1.0.10 - 2025-09-21
+
+### What's Changed
+
+* Bump aglipanci/laravel-pint-action from 2.5 to 2.6 by @dependabot[bot] in https://github.com/andreia/filament-nord-theme/pull/24
+
+**Full Changelog**: https://github.com/andreia/filament-nord-theme/compare/v1.0.9...v1.0.10
+
 ## v2.0.2 - 2025-09-21
 
 ### What's Changed
