@@ -2,6 +2,14 @@
 
 All notable changes to `Filament Nord Theme` will be documented in this file.
 
+## v2.0.3 - 2025-11-09
+
+### What's Changed
+
+* Update styles by @andreia in https://github.com/andreia/filament-nord-theme/pull/30
+
+**Full Changelog**: https://github.com/andreia/filament-nord-theme/compare/v2.0.2...v2.0.3
+
 ## v1.0.10 - 2025-09-21
 
 ### What's Changed
