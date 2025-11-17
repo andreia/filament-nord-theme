@@ -25,7 +25,7 @@ jobs:
             canvas: ^9.0
           - laravel: 12.*
             testbench: 10.*
-            canvas: ^10.0
+            canvas: ^10.0.1
 
     name: P${{ matrix.php }} - L${{ matrix.laravel }} - ${{ matrix.stability }} - ${{ matrix.os }}
 
