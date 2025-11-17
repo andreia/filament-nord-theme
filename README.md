@@ -24,7 +24,7 @@ For Filament 4 installation and documention [click here](https://github.com/andr
 ## Installation
 
 ```bash
-composer require andreia/filament-nord-theme"^1.0"
+composer require andreia/filament-nord-theme:"^1.0"
 ```
 
 To install the theme's required JS libraries (install TailwindCSS plugins: forms, typography, and also postcss, and autoprefixer. Create postcss.config.js if it not exists yet), run:
