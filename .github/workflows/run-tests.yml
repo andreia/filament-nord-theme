@@ -19,7 +19,7 @@ jobs:
         include:
           - laravel: 10.*
             testbench: 8.*
-            canvas: ^8.1
+            canvas: ^8.11
           - laravel: 11.*
             testbench: 9.*
             canvas: ^9.0
