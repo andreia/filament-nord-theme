@@ -12,10 +12,10 @@ A light and dark arctic Nord theme for Filament PHP.
 
 ## Version Compatibility
 
- Filament | Filament Nord Theme
-:---------|:-------------------
- 3.x      | 1.x
- 4.x      | 2.x
+ Filament | Filament Nord Theme | Documentation
+:--------|:-------------------|:--------------
+3.x      | 1.x                | [Check the docs](https://github.com/andreia/filament-nord-theme/tree/1.x)
+4.x      | 2.x                | Current
 
 ## Installation
 
