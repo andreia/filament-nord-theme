@@ -2,6 +2,21 @@
 
 All notable changes to `Filament Nord Theme` will be documented in this file.
 
+## v3.0.0 - 2026-01-26
+
+### What's Changed
+
+* Add Filament 5 support
+  
+* Bump actions/checkout from 4 to 6 by @dependabot[bot] in https://github.com/andreia/filament-nord-theme/pull/33
+  
+* Bump stefanzweifel/git-auto-commit-action from 5 to 7 by @dependabot[bot] in https://github.com/andreia/filament-nord-theme/pull/34
+  
+* Bump dependabot/fetch-metadata from 2.4.0 to 2.5.0 by @dependabot[bot] in https://github.com/andreia/filament-nord-theme/pull/36
+  
+
+**Full Changelog**: https://github.com/andreia/filament-nord-theme/compare/v2.0.3...v3.0.0
+
 ## v1.0.8 - 2025-05-25
 
 ### What's Changed
