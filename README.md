@@ -16,6 +16,7 @@ A light and dark arctic Nord theme for Filament PHP.
 :--------|:-------------------|:--------------
 3.x      | 1.x                | [Check the docs](https://github.com/andreia/filament-nord-theme/tree/1.x)
 4.x      | 2.x                | Current
+5.x      | 3.x                | [Check the docs](https://github.com/andreia/filament-nord-theme/tree/3.x)
 
 ## Installation
 
