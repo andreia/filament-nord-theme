@@ -21,7 +21,7 @@ A light and dark arctic Nord theme for Filament PHP.
 ## Installation
 
 ```bash
-composer require andreia/filament-nord-theme:"^2.0"
+composer require andreia/filament-nord-theme:"^3.0"
 ```
 
 Register the plugin on your panel (e.g. `/app/Providers/Filament/AdminPanelProvider.php`):
