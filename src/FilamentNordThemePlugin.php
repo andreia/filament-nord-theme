@@ -23,7 +23,7 @@ class FilamentNordThemePlugin implements Plugin
     {
         $panel
             ->assets([
-                Css::make('nord-theme', __DIR__.'/../resources/css/theme.css'),
+                Css::make('nord-theme', __DIR__ . '/../resources/css/theme.css'),
             ], package: 'andreia/filament-nord-theme')
             ->colors([
                 'danger' => Color::hex('#bf616a'), // nord11
