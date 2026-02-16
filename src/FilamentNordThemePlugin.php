@@ -4,6 +4,7 @@ namespace Andreia\FilamentNordTheme;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
+use Filament\Support\Assets\Css;
 use Filament\Support\Colors\Color;
 
 class FilamentNordThemePlugin implements Plugin
@@ -21,6 +22,9 @@ class FilamentNordThemePlugin implements Plugin
     public function register(Panel $panel): void
     {
         $panel
+            ->assets([
+                Css::make('nord-theme', __DIR__ . '/../resources/css/theme.css'),
+            ], package: 'andreia/filament-nord-theme')
             ->colors([
                 'danger' => Color::hex('#bf616a'), // nord11
                 'gray' => [
@@ -55,8 +59,7 @@ class FilamentNordThemePlugin implements Plugin
                 'success' => Color::hex('#a3be8c'), // nord14
                 'warning' => Color::hex('#ebcb8b'), // nord13
                 // 'polarnight' => Color::hex('#3b4353'), // nord1
-            ])
-            ->viteTheme('vendor/andreia/filament-nord-theme/resources/css/theme.css');
+            ]);
     }
 
     public function boot(Panel $panel): void

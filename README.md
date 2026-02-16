@@ -24,18 +24,6 @@ A light and dark arctic Nord theme for Filament PHP.
 composer require andreia/filament-nord-theme:"^3.0"
 ```
 
-Add a new item to the `input` array of your `vite.config.js` file:
-
-```js
-'vendor/andreia/filament-nord-theme/resources/css/theme.css'
-```
-
-Run:
-
-```bash
-npm run build
-```
-
 Register the plugin on your panel (e.g. `/app/Providers/Filament/AdminPanelProvider.php`):
 
 ```php
@@ -43,6 +31,25 @@ use Andreia\FilamentNordTheme\FilamentNordThemePlugin;
 
 $panel
   ->plugin(FilamentNordThemePlugin::make())
+```
+
+Publish the theme assets:
+
+```bash
+php artisan filament:assets
+```
+
+Also add the line to import the Nord theme on your custom Filament`theme.css` (eg. `resources/css/filament/admin/theme.css`):
+ 
+```js
+ @import '../../../../vendor/filament/filament/resources/css/theme.css';
+ @import '../../../../vendor/andreia/filament-nord-theme/resources/css/theme.css';
+```
+
+and run:
+
+```bash
+npm run build
 ```
 
 You're all set!

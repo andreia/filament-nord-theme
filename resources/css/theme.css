@@ -1,5 +1,3 @@
-@import '../../../../../vendor/filament/filament/resources/css/theme.css';
-
 @theme {
   --color-secondary-50: rgba(var(--secondary-50), <alpha-value>);
   --color-secondary-100: rgba(var(--secondary-100), <alpha-value>);
