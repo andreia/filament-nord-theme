@@ -2,6 +2,14 @@
 
 All notable changes to `Filament Nord Theme` will be documented in this file.
 
+## v3.1.0 - 2026-02-16
+
+### What's Changed
+
+* Fix npm run v3 by @andreia in https://github.com/andreia/filament-nord-theme/pull/38
+
+**Full Changelog**: https://github.com/andreia/filament-nord-theme/compare/v3.0.0...v3.1.0
+
 ## v3.0.0 - 2026-01-26
 
 ### What's Changed
