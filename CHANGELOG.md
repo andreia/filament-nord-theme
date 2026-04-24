@@ -2,6 +2,15 @@
 
 All notable changes to `Filament Nord Theme` will be documented in this file.
 
+## v3.2.0 - 2026-04-24
+
+### What's Changed
+
+* Updates by @andreia in https://github.com/andreia/filament-nord-theme/pull/42
+* Laravel 13 support
+
+**Full Changelog**: https://github.com/andreia/filament-nord-theme/compare/v3.1.0...v3.2.0
+
 ## v3.1.0 - 2026-02-16
 
 ### What's Changed
