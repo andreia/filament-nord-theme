@@ -2,6 +2,21 @@
 
 All notable changes to `Filament Nord Theme` will be documented in this file.
 
+## v2.1.0 - 2026-04-24
+
+### What's Changed
+
+* Bump actions/checkout from 4 to 6 by @dependabot[bot] in https://github.com/andreia/filament-nord-theme/pull/33
+* Bump stefanzweifel/git-auto-commit-action from 5 to 7 by @dependabot[bot] in https://github.com/andreia/filament-nord-theme/pull/34
+* Bump dependabot/fetch-metadata from 2.4.0 to 2.5.0 by @dependabot[bot] in https://github.com/andreia/filament-nord-theme/pull/36
+* Laravel 13.x Compatibility by @laravel-shift in https://github.com/andreia/filament-nord-theme/pull/39
+
+### New Contributors
+
+* @laravel-shift made their first contribution in https://github.com/andreia/filament-nord-theme/pull/39
+
+**Full Changelog**: https://github.com/andreia/filament-nord-theme/compare/v2.0.3...v2.1.0
+
 ## v1.0.8 - 2025-05-25
 
 ### What's Changed
